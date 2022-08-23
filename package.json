@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/moomle00000/subdl_api#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "adm-zip": "^0.5.9",
     "cheerio": "^1.0.0-rc.10",
-    "got-scraping": "^3.2.9"
   }
 }
