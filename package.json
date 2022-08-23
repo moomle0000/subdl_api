@@ -1,0 +1,33 @@
+{
+  "name": "subdl-api",
+  "version": "1.0.0",
+  "description": "simple project for download subtitle from subdl",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moomle00000/subdl_api.git"
+  },
+  "keywords": [
+    "subdl",
+    "api",
+    "subtitle",
+    "download",
+    "subdl-api",
+    "subtitle-downloader",
+    "node-subdl-api"
+  ],
+  "author": "moomle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moomle00000/subdl_api"
+  },
+  "homepage": "https://github.com/moomle00000/subdl_api#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "cheerio": "^1.0.0-rc.10",
+    "got-scraping": "^3.2.9"
+  }
+}
