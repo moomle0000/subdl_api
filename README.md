@@ -14,7 +14,7 @@ const subdl = require('subdl_api')
 # How to search a movie?
 
 const search_movies =  subdl.search(query)
- .then(data ={
+ .then(data =>{
     .....
 })
 
@@ -22,7 +22,7 @@ const search_movies =  subdl.search(query)
 # How to get Subtitles?
 
 const Subtitles =  subdl.subtitle(url)
- .then(data ={
+ .then(data =>{
     .....
 })
 
@@ -30,7 +30,7 @@ const Subtitles =  subdl.subtitle(url)
 # How To Download Subtitle and extract to vtt?
 
 const Downloadandextract =  subdl.extrDatae(url)
- .then(data ={
+ .then(data =>{
     .....
 })
 
