@@ -5,6 +5,7 @@ Small project for Download Subtitle From SUBDL
 
 Important : This is not an official project, so there is no guarantee that it will work for a long time.
 
+npm i
 
 # Require Module
 
