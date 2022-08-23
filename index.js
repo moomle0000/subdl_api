@@ -11,10 +11,7 @@ async function search(query = String) {
 
         var results = res.data.results[0].link.replace(".net", ".com")
 
-        const subtitlee = await subtitle(`${results}/arabic`)
-
-        console.log(subtitlee)
-        return subtitlee || null
+        return results || null
     } catch (e) {
         throw e
     }
